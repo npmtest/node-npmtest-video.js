@@ -1,7 +1,10 @@
-# test coverage for  [video.js (v5.19.1)](http://videojs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-video.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-video.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-video.js.svg)](https://travis-ci.org/npmtest/node-npmtest-video.js)
+# npmtest-video.js
+
+#### test coverage for  [video.js (v5.19.2)](http://videojs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-video.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-video.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-video.js.svg)](https://travis-ci.org/npmtest/node-npmtest-video.js)
+
 #### An HTML5 and Flash video player with a common API and skin for both.
 
-[![NPM](https://nodei.co/npm/video.js.png?downloads=true)](https://www.npmjs.com/package/video.js)
+[![NPM](https://nodei.co/npm/video.js.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/video.js)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-video.js/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-video.js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-video.js/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-video.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-video.js/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-video.js/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-video.js/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-video.js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-video.js/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-video.js/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-video.js%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-video.js/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-video.js/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-video.js/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-video.js/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-video.js%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-video.js/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-video.js/build/test-report.html](https://npmtest.github.io/node-npmtest-video.js/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-video.js/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-video.js/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-video.js/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-video.js/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-video.js/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-video.js/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-video.js/build/screenCapture.npmPackageListing.svg)
 
@@ -128,10 +137,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "5d6407aebd078bf4c4f94183f840a53388c34f25",
-        "tarball": "https://registry.npmjs.org/video.js/-/video.js-5.19.1.tgz"
+        "shasum": "849d6b1e5fc2cb23ea7b17cd79b25800f61d87e5",
+        "tarball": "https://registry.npmjs.org/video.js/-/video.js-5.19.2.tgz"
     },
-    "gitHead": "3c77005bec422cb08d5f436ae5f12ca4c7099ee3",
+    "gitHead": "d2d8f8f45f2051fb3a07130e09596a666eac00c2",
     "homepage": "http://videojs.com",
     "keywords": [
         "flash",
@@ -144,13 +153,11 @@
     "main": "./es5/video.js",
     "maintainers": [
         {
-            "name": "gkatsev",
-            "email": "me@gkatsev.com"
+            "name": "gkatsev"
         }
     ],
     "name": "video.js",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/videojs/video.js.git"
@@ -171,7 +178,7 @@
         "test": "grunt test"
     },
     "style": "./dist/video-js.css",
-    "version": "5.19.1",
+    "version": "5.19.2",
     "vjsstandard": {
         "ignore": [
             "**/Gruntfile.js",
